@@ -23,8 +23,8 @@ function iterationFibonachi(n) {
     let result = 1;
     for (let i = 0; i < n - 2; i++) {
         let tmp = result; //create time  variab and write result
-        result += prev; // 1 + 1
-        prev = tmp; // write 2
+        result += prev; // 1 + 1, 2 + 1, 3 + 2
+        prev = tmp; // write 2, 3, 5
 
     }
     return result;
